@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Chat-Room-Web:war exploded">
+    <output-path>$PROJECT_DIR$/Chat-Room-Web/target/chat-prj-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Chat-Room-Web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:2.2" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.1" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-websocket-api:7.0.47" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.10.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.9.2" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.22" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Chat-Room-Web/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Chat-Room-Web/web/Web" />
+    </root>
+  </artifact>
+</component>
